@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <!-- android:background="@drawable/list_selector"-->
+ 
+    <!-- Album id / Hidden by default -->
+    <TextView
+        android:id="@+id/category_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+   <ImageView
+  	  android:id="@+id/category_image"
+	  android:layout_width="50dip"
+	  android:layout_height="50dip" 
+	  android:layout_centerVertical="true" 
+	  android:minHeight="50dip" android:src="@drawable/stub" android:scaleType="centerCrop"/>
+    <!-- Album Name -->
+    <TextView
+        android:id="@+id/category_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/category_image"
+        android:textSize="20sp"
+        android:paddingTop="15dip"
+        android:paddingBottom="15dip"
+        android:paddingLeft="10dip"
+        android:textColor="#040404"
+   	    android:typeface="sans"
+	    android:textStyle="normal"/>
+    
+ <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+ 
+    <!-- Album Songs count -->
+ 
+</RelativeLayout>

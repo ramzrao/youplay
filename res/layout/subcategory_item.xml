@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    <!-- android:background="@drawable/list_selector"-->
+ 
+    <!-- Album id / Hidden by default -->
+ 
+    <!-- Song id / Hidden by default -->
+    <TextView
+        android:id="@+id/subcategory_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+ 
+    <!-- Track serial no -->
+    <ImageView
+  	  android:id="@+id/subcategory_image"
+	  android:layout_width="50dip"
+	  android:layout_height="50dip" 
+	  android:layout_centerVertical="true" 
+	  android:minHeight="50dip" android:src="@drawable/stub" android:scaleType="centerCrop"/>
+    <!-- Song Name -->
+    <TextView
+        android:id="@+id/subcategory_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dip"
+        android:layout_toRightOf="@id/subcategory_image"
+        android:paddingLeft="5dip"
+        android:paddingTop="15dip"
+        android:textSize="20sp"
+        android:textColor="#040404"
+	  android:typeface="sans"
+	  android:textStyle="normal"/>
+    
+ <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+ 
+    <!-- Song duration -->
+ 
+</RelativeLayout>

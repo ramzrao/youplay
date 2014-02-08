@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, YouPlayActivity!</string>
+    <string name="app_name">YouPlay</string>
+    <string name="searchLabel">Search For Artist</string>
+    <string name="searchButtonText">Search</string>
+     <string name="youtubevideoid">YouTube Video ID</string>
+    <string name="viewVideoButton">View Using OpenYouTubeActivity!</string>
+    <string name="defaultYoutubeVideoId">tzgFuUu0oxg</string>
+    <string name="loading_text">loading &#8230;</string>
+</resources>
